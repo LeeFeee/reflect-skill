@@ -17,7 +17,7 @@
 
 对你的 OpenClaw 说：
 
-> 给我安装 https://github.com/LeeFeee/reflect-skill，并且启用 hook，然后进行第一次全量分析。
+> 给我安装 https://github.com/LeeFeee/reflect-skill ，并且启用 hook，然后进行第一次全量分析。
 
 ## 安装后配置
 
