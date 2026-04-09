@@ -39,9 +39,9 @@ If the user declines, let them know they can manually trigger a reflection anyti
 
 ### 2. First Full Analysis
 
-After the hook is enabled, ask the user to **start a new session**. The bootstrap hook will automatically trigger the first full analysis (Phase A) on session start, analyzing all available session logs and generating the first reflect report.
+In the current session, ask the user: **"This is the first time running reflect-skill. Would you like to run a full retrospective on all historical records?"**
 
-The first analysis is not limited to "yesterday" — since there are no prior reports, perform a one-time full analysis of all available sessions to establish a baseline for future cumulative matching.
+If the user agrees, immediately execute a full analysis (Phase A), reading all available session logs and generating the first reflect report. The first analysis is not limited to "yesterday" — perform a one-time full analysis of all available sessions to establish a baseline for future cumulative matching.
 
 After analysis, if there are pending items (todo/urgent level), Phase B will prompt the user for approval.
 
