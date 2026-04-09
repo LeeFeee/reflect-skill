@@ -15,6 +15,12 @@ Session start (bootstrap)
 
 Core design: **Cumulative promotion mechanism** prevents frequent interruptions — the same issue must appear 3 times before being submitted for user approval.
 
+## Installation
+
+Tell your OpenClaw:
+
+> Install https://github.com/LeeFeee/reflect-skill for me, enable the hook, and run the first full analysis.
+
 ## Post-Installation Configuration
 
 After installation, guide the user through these steps:
