@@ -31,7 +31,9 @@
 
 向用户确认是否启用 `agent:bootstrap` hook，启用后每次会话启动会自动检查是否有待处理的复盘报告。
 
-引导用户执行：
+**首先**，将本 skill 目录下的 `hooks/openclaw/` 文件夹复制到 `~/.openclaw/hooks/reflect-skill/`。
+
+**然后**，引导用户执行：
 
 ```
 openclaw hooks enable reflect-skill

@@ -31,7 +31,9 @@ After installation, guide the user through these steps:
 
 Ask the user whether to enable the `agent:bootstrap` hook. Once enabled, every session start will automatically check for pending reflect reports.
 
-Guide the user to execute:
+**First**, copy the `hooks/openclaw/` folder from this skill directory to `~/.openclaw/hooks/reflect-skill/`.
+
+**Then**, guide the user to execute:
 
 ```
 openclaw hooks enable reflect-skill
