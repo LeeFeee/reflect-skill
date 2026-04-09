@@ -22,6 +22,10 @@ metadata:
 {skill 目录}/
 ├── SKILL.md              ← 当前文件
 ├── _meta.json
+├── hooks/
+│   └── openclaw/         ← agent:bootstrap hook（自动触发用）
+│       ├── HOOK.md
+│       └── handler.ts
 ├── reports/              ← 每日报告（= 待办清单 = changelog）
 │   └── YYYY-MM-DD.md
 └── backups/              ← 核心文件原始备份
