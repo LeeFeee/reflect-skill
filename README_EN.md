@@ -19,7 +19,9 @@ Core design: **Cumulative promotion mechanism** prevents frequent interruptions 
 
 Tell your OpenClaw:
 
-> Install https://github.com/LeeFeee/reflect-skill for me, enable the hook, and run the first full analysis.
+```
+Install https://github.com/LeeFeee/reflect-skill for me, enable the hook, and run the first full analysis.
+```
 
 ## Post-Installation Configuration
 
