@@ -1,0 +1,20 @@
+{
+  "slug": "reflect-skill",
+  "version": "1.0.0",
+  "requiredPaths": {
+    "read": [
+      "~/.openclaw/agents/${agentId}/sessions/*.jsonl",
+      "MEMORY.md",
+      "USER.md",
+      "SOUL.md",
+      "AGENTS.md"
+    ],
+    "write": [
+      "MEMORY.md",
+      "USER.md",
+      "SOUL.md",
+      "AGENTS.md"
+    ]
+  },
+  "events": ["agent:bootstrap"]
+}
